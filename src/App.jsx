@@ -6,6 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   const id = import.meta.env.VITE_ID
+  const idk = import.meta.env.VITE_IDK
   return (
     <>
       <div>
@@ -26,7 +27,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Muneer on the Vite and React logos to learn {id}
+        Muneer on the Vite and React logos to learn {id} {idk}
       </p>
     </>
   )
